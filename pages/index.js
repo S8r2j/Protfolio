@@ -31,8 +31,7 @@ export default function Home() {
           </div>
             <ul className='flex items-center'>
               <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className=' cursor-pointer text-2xl'/></li>
-              <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="http://www.surajsharma1.com.npnpm install gh-pages --save-dev
-/Resume.pdf" download>Resume</a></li>
+              <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="http://www.surajsharma1.com.np/Resume.pdf" download>Resume</a></li>
             </ul>
           </nav>
           <div className='text-center p-2'>
