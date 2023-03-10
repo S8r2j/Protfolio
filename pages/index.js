@@ -27,11 +27,12 @@ export default function Home() {
         <section className=' min-h-screen'>
           <nav className=' py-10 mb-12 flex justify-between'>
           <div className='text-xl'>
-            <a href='https://www.shahneha.com.np' target='_blank'><h1 className={ubuntu.className}>developedby</h1></a>
+            <a href='https://www.shahneha.com.np'><h1 className={ubuntu.className}>developedby</h1></a>
           </div>
             <ul className='flex items-center'>
               <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className=' cursor-pointer text-2xl'/></li>
-              <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="http://localhost:3000/Resume.pdf" download>Resume</a></li>
+              <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="http://www.surajsharma1.com.npnpm install gh-pages --save-dev
+/Resume.pdf" download>Resume</a></li>
             </ul>
           </nav>
           <div className='text-center p-2'>
@@ -42,10 +43,10 @@ export default function Home() {
             </p>
           </div>
             <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
-              <a href='https://leetcode.com/surajaskmini/?fbclid=IwAR0CgusBUkUx3oFJD4IynrZSoV8m5F40nnoLyu4qmCFv0C82QS7CgJZ4EjQ' target="_blank"><SiLeetcode/></a>  
-              <a href='https://www.linkedin.com/in/suraj-sharma-a049a31a8/' target="_blank"><AiFillLinkedin/></a>
-              <a href='https://github.com/S8r2j' target="_blank"><AiFillGithub/></a>
-              <a href='https://www.facebook.com/profile.php?id=100039008803650' target="_blank"><AiFillFacebook /></a>      
+              <a href='https://leetcode.com/surajaskmini/?fbclid=IwAR0CgusBUkUx3oFJD4IynrZSoV8m5F40nnoLyu4qmCFv0C82QS7CgJZ4EjQ'><SiLeetcode/></a>  
+              <a href='https://www.linkedin.com/in/suraj-sharma-a049a31a8/'><AiFillLinkedin/></a>
+              <a href='https://github.com/S8r2j'><AiFillGithub/></a>
+              <a href='https://www.facebook.com/profile.php?id=100039008803650'><AiFillFacebook /></a>      
             </div>
           <div className='relative flex justify-center mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
             <Image src={sspp}/>
