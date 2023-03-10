@@ -39,7 +39,7 @@ export default function Home() {
             <h2 className=' text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Suraj Sharma</h2>
            <h3 className='text-2xl py-2 md:text-3xl'>Software Engineer</h3>
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto'>
-              Freelancer providing services for programming needs. If you're looking for someone to handle the technical aspects of your web or desktop app, a skilled backend developer can help you build a robust and reliable backend system that supports your business needs.
+              Freelancer providing services for programming needs. If you are looking for someone to handle the technical aspects of your web or desktop app, a skilled backend developer can help you build a robust and reliable backend system that supports your business needs.
             </p>
           </div>
             <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
